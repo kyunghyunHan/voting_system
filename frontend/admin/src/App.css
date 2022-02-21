@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.content {
+  margin-left:150px;
+  margin-top:50px;
+}
+
+.title {
+  font-size:25px;
+  font-weight:bold;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.m-b-50{
+  margin-bottom:50px;
+}
+
+.m-t-20{
+  margin-top:20px;
+}
+
+.m-b-20{
+  margin-bottom:20px;
+}
+
+.candidate-registration {
+  padding:0px 100px;
+}
+
+.election-registration {
+  padding:0px 100px;
+}
+
+.voting-result {
+  padding: 0px 100px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
